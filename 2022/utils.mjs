@@ -8,5 +8,5 @@ export async function getInput() {
   const file = await open(inputPath);
   const input = await file.readFile({ encoding: 'utf8' });
   file.close();
-  return input.trim();
+  return input.trimEnd();
 }
