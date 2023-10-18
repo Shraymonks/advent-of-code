@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@swc-node/register": "^1.6.8",
+    "@tsconfig/node-lts": "^18.12.5",
+    "@tsconfig/strictest": "^2.0.2",
+    "@types/node": "^20.8.6",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
